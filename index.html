@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéApi - Pokemons</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/pokeIconPage.svg">
+</head>
+
+<body>
+    <div class="ui red massive menu navbar stackable container-fluid">
+        <div class="item">
+            <img src="img/logoPokeApi.png" class="logoPage">
+            <div class="ui inverted segment">
+                <button class="ui inverted button large" onclick="fetchApiPokemon(1)">Home</button>
+            </div>
+        </div>
+        <div class="right menu">
+            <div class="ui right aligned category search item">
+                <div class="ui small icon input">
+                    <input type="text" placeholder="Find pokemon......" id="searchPokemon">
+                    <button type="button" class="ui red icon button" onclick="fetchApiPokemon('', true)">
+                        <i class="search link icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="ui link cards" id="pokemonCard">
+
+        </div>
+    </div>
+    
+    <div class="ui container" id="modalSection">
+
+    </div>
+    
+    <div class="ui container buttonContain" id="buttonSection">
+
+    </div>
+    
+    <div class="ui inverted vertical footer segment">
+        <div class="ui container">
+            <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="three wide column">
+                    <h4 class="ui inverted header">About</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">All rights reserved 2021</a>
+                        <a href="#" class="item">Go to top of page</a>
+                        <a href="#" class="item">Contact Us</a>
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <h4 class="ui inverted header">Pokemon API</h4>
+                    <p>This page was made with the purpose of consuming the pokemon API, listing all the pokemon and their characteristics.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
+        integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/code.js"></script>
+</body>
+
+</html>

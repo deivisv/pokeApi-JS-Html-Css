@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Petemoss', cursive !important;
+    font-size: 3.5rem !important;
+}
+
+h3{
+    margin-top: 0 !important;
+}
+
+body{
+    background: linear-gradient(to right, #e0eafc, #cfdef3) !important;
+}
+
+.logoPage{
+    width: 50% !important;
+}
+
+.navbar, .navbar div{
+    background-color: #db2828 !important;
+    color: #fff !important;
+    font-weight: 900 !important;
+}
+
+.container{
+    margin-left: 3% !important;
+}
+
+.containerType{
+    justify-content: center !important;
+    align-items: center !important; 
+    display: flex !important;
+    margin-bottom: 5% !important;
+}
+
+.typeFormat{
+    border-radius: 10% !important;
+    color: #fff !important; 
+    padding: 2% 2% !important;
+    font-weight: bolder !important;
+    font-size: 1.5rem !important;
+}
+
+.font{
+    font-size: 1.3rem !important;
+}
+
+.fontColor{
+    color: #fff !important;
+}
+
+.centerText{
+    text-align: center !important;
+}
+
+.bugColor{
+    background-color: #3C9950 !important; 
+}
+.darkColor{
+    background-color: #595978 !important;
+}
+.dragonColor{
+    background-color: #448A95 !important;
+}
+.electricColor{
+    background-color: #d1d119 !important;
+}
+.fairyColor{
+    background-color: #E91368 !important;
+} 
+.fightingColor{
+    background-color: #EF6239 !important;
+}
+.flyingColor{
+    background-color: #94B2C7 !important;
+}
+.ghostColor{
+    background-color: #906791 !important;
+} 
+.grassColor{
+    background-color: #27CB50 !important;
+}
+.groundColor{
+    background-color: #A8702D !important;
+}
+.iceColor{
+    background-color: #86D2F5 !important;
+}
+.normalColor{
+    background-color: #75525C !important;
+}
+.psychicColor{
+    background-color: #F71D92 !important;
+} 
+.rockColor{
+    background-color: #8B3E22 !important;
+}
+.steelColor{
+    background-color: #43BD94 !important;
+}
+.waterColor{
+    background-color: #1552E1 !important; 
+}
+.poisonColor{
+    background-color: #5E2D89 !important; 
+}
+.fireColor{
+    background-color: #AB1F24 !important; 
+}
+
+.icons{
+    padding-right: 4px !important;
+    padding-left: 3px !important;
+}
+
+.imgHidden{
+    filter: brightness(0%) !important;
+}
+
+.imgHidden:hover{
+    filter: none !important;
+}
+
+.buttonContain{
+    margin-top: 1% !important;
+    margin-bottom: 5% !important;
+}
+
+.bgColor{
+    background-color: #db2828 !important;
+    color: #fff !important;
+}
