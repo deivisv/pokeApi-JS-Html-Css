@@ -9,3 +9,5 @@ Practice project, consuming the PokeAPI, with the GET method of fetch, to list t
 ***
 ### Screenshot
 ![](/preview.jpg)
+***
+![](/preview2.jpg)
